@@ -1,3 +1,3 @@
 #Author:Wl
-a = bin(23)
+a = bin(2345636)
 print(a)
