@@ -17,7 +17,7 @@ def open_url(threadName, delay):
         driver.find_element_by_name("wd").send_keys("python")
         driver.find_element_by_id("su").click()
         # time.sleep(10)
-        # driver.quit()
+        driver.quit()
         count = count + 1
 
 def open_url_2(threadName, delay):
@@ -31,7 +31,7 @@ def open_url_2(threadName, delay):
         driver.find_element_by_name("wd").send_keys("支付宝")
         driver.find_element_by_id("su").click()
         # time.sleep(10)
-        #driver.quit()
+        driver.quit()
 
 try:
     _thread.start_new_thread(open_url, ("Thread-1", 2,))
