@@ -1,6 +1,7 @@
 #Author:Wl
 # coding = uft-8
-import os,time
+import os
+import time
 import _thread
 from selenium import webdriver
 
